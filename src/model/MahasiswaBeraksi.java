@@ -12,6 +12,7 @@ public class MahasiswaBeraksi {
 		SimpleDateFormat SimpleDateFormat = new SimpleDateFormat(polaTanggal);
 		
 		
+		
 		Mahasiswa mahasiswa = new Mahasiswa();
 		mahasiswa.npm = "19630944";
 		mahasiswa.nama = "Giat Adi Hatmojo";
@@ -32,6 +33,7 @@ public class MahasiswaBeraksi {
 		
 		mahasiswa.tampilkanAtribut();
 		mahasiswa2.menyapa();
+		System.out.println("Usiaku : "+ mahasiswa.hitungUsia() + "tahun");
 		
 	}
 		
